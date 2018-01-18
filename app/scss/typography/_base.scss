@@ -1,0 +1,30 @@
+h2,
+.h2 {
+    margin: 0 0 35px;
+    padding: 0;
+}
+
+.blue-text {
+    color: $primary-color !important;
+}
+
+.yellow-text {
+    color: $secondary-color !important;
+}
+
+.white-text {
+    color: $white-color !important;
+}
+
+.secondary-font {
+    font-family: $secondary-font;
+}
+
+.curly-heading {
+    @extend .secondary-font;
+    @extend .yellow-text;
+    line-height: 1.8;
+    &.size--l {
+        font-size: 40px;
+    }
+}

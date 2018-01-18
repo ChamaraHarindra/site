@@ -1,0 +1,23 @@
+.transparent-block {
+    position: relative;
+    padding-bottom: 80px;
+    .transparent-block__icon {
+        display: block;
+        margin: auto;
+        height: 115px;
+        margin-bottom: 20px;
+        &.icon--large {
+            height: 155px;
+        }
+    }
+    .transparent-block__btn {
+        font-size: em(28);
+        width: 115px;
+        line-height: 100%;
+        padding-bottom: 15px;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -13,14 +13,213 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- build:css css/main.min.css -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/vendor/animate.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- endbuild -->
+    <script src="https://use.fontawesome.com/f1cfb81f5a.js"></script>
 </head>
 
 <body>
-    <!-- build:js js/main.min.js -->
+    <section class="hero-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg bg-transparent">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.jpg" alt="Nutritism Logo" class="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fa fa-navicon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active"><a class="nav-link" href="#">Decouvrir <span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Le produit </a></li>
+                                <li class="nav-item dropdown"><a class="nav-link" href="#">Nous rejoindre</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="hero-text">
+                <span>
+                    <div class="hero-text__heading mb-2">Adoptez votre<br/>NOUVELLE RELIGION,<br/>celle de votre<br/>BIEN-ETRE.</div>
+                    <p>S'occuper de votre corps c'est s'occuper de vous: NUTRITISM vous perment de vouse octroyez un instant quotidien dedie a votre organisme en lui fournissant ce qu'il y a de meilleur.</p>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="common common--large-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="flex-3-cols">
+                        <div class="transparent-block text-center">
+                            <img src="images/heart-icon.jpg" alt="Sain" class="transparent-block__icon" />
+                            <div class="h2 blue-text">Sain.</div>
+                            <p>Aides et renforces votr organisme grace son melange unique d'elements essentiels : riche en fibres, concentre en proteines, source de toutes les vitamines</p>
+                            <a href="#" class="transparent-block__btn btn btn-secondary">go</a>
+                        </div>
+                        <div class="transparent-block text-center">
+                            <img src="images/hand-icon.jpg" alt="Practique" class="transparent-block__icon" />
+                            <div class="h2 blue-text">Practique.</div>
+                            <p>Un shaker cool et tendance que vous pouvez emmener partout avec vous. Grace a son concept innovant c'est super facile d'utilisation... il peut etre pris quand vous le voules !</p>
+                            <a href="#" class="transparent-block__btn btn btn-secondary">go</a>
+                        </div>
+                        <div class="transparent-block text-center">
+                            <img src="images/smiley-face.jpg" alt="Delicieux" class="transparent-block__icon" />
+                            <div class="h2 blue-text">Delicieux.</div>
+                            <p>Grace a sa texture onctueuse et ses 3 delicieux parfums, penser a soi devient un vrai regal !</p>
+                            <a href="#" class="transparent-block__btn btn btn-secondary">go</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video" id="test">
+        <a href="#" data-toggle="modal" data-target="#video"><span>Watch the Video</span></a>
+        <div class="modal fade modal-fullscreen" id="video" tabindex="-1" role="dialog" aria-labelledby="videoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen" role="document">
+                <div class="modal-content modal-transparent">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    <div class="modal-body">
+                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/vI4LHl4yFuo' frameborder='0' allowfullscreen></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="common brand-section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>100% bon pour votre corps</h2>
+                    <div class="flex-5-cols flex-center mb-3">
+                        <img src="images/sans-colorant-logo.jpg" alt="Sans Colorant">
+                        <img src="images/sans-arome-logo.jpg" alt="Sans Arome">
+                        <img src="images/sans-exhauster-logo.jpg" alt="Sans Exhauster">
+                        <img src="images/sans-ogm-logo.jpg" alt="Sans OGM">
+                        <img src="images/sans-edulcorants.jpg" alt="Sans Edulcorants">
+                    </div>
+                    <p class="text-center">
+                        Sans aromes artificiels, sans additifs artificiels, sans colorants, sans exhausteurs de gout, sans edulcorants et sans OGM, Nutritism est uniquement compose d'ingredients bien connus et dont les effets sont benefiques pour votre organisme.
+                    </p>
+                </div>
+            </div>
+        </div>
 
+    </section>
+    <section class="common common--large-padding statistics">
+        <div class="container">
+            <div class="col">
+                <div class="curly-heading size--l text-center">Votre</div>
+                <h2 class="text-center mb-0 blue-text">rituel quotidien</h2>
+                <div class="curly-heading size--l text-center mb-1">vous apporte</div>
+                <p class="text-center mb-5 blue-text">(1 shake avec 250ml de lait demi-ecreme)</p>
+
+                <p class="text-center mb-5">
+                    Nous vivons dans un environment qui met notre corps a rude epreuve : une pollution persistante, un rythme professionnel intensif, une pratique sportive reguliere ou une alimentation pas assez equilibree sont autant d'elements qui perturbent notre metabolisme.<br/><br>                    C'est pourquoi il faut fournir a votre corps de maniere preventive ou curative des complements essentiels a son bon fonctionnement.
+                </p>
+                <div class="flex-6-cols flex-x-center">
+                    <div class="pie-chart">
+                        <div class="chart" data-percent="90"><span class="percent"></span></div>
+                        <span class="numbers">
+                            883 Kj<br/>
+                            211 kcal
+                        </span>
+                        <span class="name">energie</span>
+                    </div>
+                    <div class="pie-chart">
+                        <div class="chart" data-percent="35"><span class="percent"></span></div>
+                        <span class="numbers">
+                            6,4g<br/>
+                        </span>
+                        <span class="name">matieres<br/>grasses</span>
+                    </div>
+                    <div class="pie-chart">
+                        <div class="chart" data-percent="39"><span class="percent"></span></div>
+                        <span class="numbers">
+                            3,4g<br/>
+                        </span>
+                        <span class="name">acides<br/>gras<br/>satures</span>
+                    </div>
+                    <div class="pie-chart">
+                        <div class="chart" data-percent="34"><span class="percent"></span></div>
+                        <span class="numbers">
+                            9,1g<br/>
+                        </span>
+                        <span class="name">sucres</span>
+                    </div>
+                    <div class="pie-chart">
+                        <div class="chart" data-percent="59"><span class="percent"></span></div>
+                        <span class="numbers">
+                            0,3g<br/>
+                        </span>
+                        <span class="name">sel</span>
+                    </div>
+                    <div class="pie-chart">
+                        <div class="chart" data-percent="39"><span class="percent"></span></div>
+                        <span class="numbers">
+                            3,0g<br/>
+                        </span>
+                        <span class="name">filres</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="common">
+
+    </section>
+    <!-- build:js js/main.min.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easypiechart.js" type="text/javascript"></script>
+    <script>
+        function testAnim(x) {
+            $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated' + ' modal-dialog-centered');
+        };
+        $('.modal').on('show.bs.modal', function(e) {
+            var anim = 'zoomIn';
+            testAnim(anim);
+        })
+        $('.modal').on('hide.bs.modal', function(e) {
+            var anim = 'zoomOut';
+            testAnim(anim);
+        })
+
+        //Pie chart
+        var waypoint = new Waypoint({
+            element: document.getElementById('test'),
+            handler: function() {
+                $(function() {
+                    $('.chart').easyPieChart({
+                        easing: 'easeOutBounce',
+                        barColor: '#23bce8',
+                        lineCap: 'butt',
+                        scaleColor: '#ddd',
+                        trackColor: false,
+                        lineWidth: 18,
+                        size: 140,
+                        animate: 2000,
+                        onStep: function(from, to, percent) {
+                            $(this.el).find('.percent').text(Math.round(percent));
+                        }
+                    });
+                });
+            }
+        })
+
+        // Chart.js
+    </script>
     <!-- endbuild -->
 </body>
 

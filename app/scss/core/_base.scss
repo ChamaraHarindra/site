@@ -1,0 +1,13 @@
+html,
+body {
+    font: normal em(16) $default-font-family;
+    line-height: 1.6;
+    color: $black-color;
+}
+
+a:link {
+    transition: .3s all ease-in-out;
+    &:hover {
+        transition: .3s all ease-in-out;
+    }
+}

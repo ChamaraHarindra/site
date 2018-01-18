@@ -1,0 +1,27 @@
+.flex-2-cols {
+    @include flex-grid(2, 30px)
+}
+
+.flex-3-cols {
+    @include flex-grid(3, 30px)
+}
+
+.flex-4-cols {
+    @include flex-grid(4, 30px)
+}
+
+.flex-5-cols {
+    @include flex-grid(5, 30px)
+}
+
+.flex-6-cols {
+    @include flex-grid(6, 15px)
+}
+
+.flex-x-center {
+    justify-content: center;
+}
+
+.flex-y-center {
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+@mixin flex-grid($cols, $gutter: 0) {
+    display: flex;
+    flex-wrap: wrap;
+    >* {
+        // Reset to prevent external styles break the grid.
+        margin-left: 0;
+        margin-bottom: 20px;
+        $item-width: calc((100% / #{$cols}) - #{$gutter} + (#{$gutter} / #{$cols}));
+        margin-right: $gutter;
+        width: $item-width;
+        box-sizing: border-box;
+        @media(max-width: 576px) {
+            $item-width: 100%;
+            margin-right: 0;
+            width: $item-width;
+        }
+        @media(min-width:576px) and (max-width:992px) {
+            $item-width: calc((100% / 2) - #{$gutter});
+            margin-right: $gutter;
+            width: $item-width;
+        }
+        // When we reach the cols per line, the last
+        // col item must not have margin right. 
+        &:nth-child(#{$cols}n) {
+            margin-right: 0;
+        }
+    }
+}
